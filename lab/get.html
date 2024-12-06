@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container" style="width: 50%; border: 2px solid black; margin-top: 40px;">
+      <!-- Change method from POST to GET -->
+      <form action="lab1.php" method="get">
+        <h1>
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+
+          <label for="number">Number:</label>
+          <input type="number" class="form-control" id="number" name="number" required>
+        </h1>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
